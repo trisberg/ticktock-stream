@@ -1,0 +1,3 @@
+name: ticktock
+description: Test stream for TAP
+definition: time --format='YYYY+MM+DD' | log
