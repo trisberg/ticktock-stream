@@ -7,7 +7,7 @@ metadata:
     app.kubernetes.io/part-of: ticktock
 spec:
   params:
-  - name: testing_pipeline_matching_labels
+  - name: scdf_pipeline_matching_labels
     value:
       apps.tanzu.vmware.com/pipeline: scdf-stream
   source:

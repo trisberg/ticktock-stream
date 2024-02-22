@@ -1,3 +1,4 @@
 name: ticktock
 description: Test stream for TAP
-definition: time --format='YYYY/MM/DD' | log
+definition: time | log
+deploymentProperties: app.time.date-format=YYYY/mm/dd,app.log.level=WARN
